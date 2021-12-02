@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProjLinq
 {
-    class Shool
+    public class Shool
     {
+        // Класс назвал так потому что не заметил. а потом решил что так должно быть везде
+
         public int id { get; set; }
         public string NameClass { get; set; }
         public int quantity { get; set; }

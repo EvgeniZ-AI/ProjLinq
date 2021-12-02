@@ -12,5 +12,8 @@ namespace ProjLinq
         protected ClassDbContext() :base("ShoolDbConnectionsString")
         {
         }
+
+        public DbSet<Shool> Shools { get; set; }
+        public DbSet<Class> Classes { get; set; }
     }
 }

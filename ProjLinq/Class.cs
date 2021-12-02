@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjLinq
 {
-    class Class
+    public class Class
     {
         public int id { get; set; }
         public string studentName { get; set; }
