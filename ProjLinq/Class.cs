@@ -12,5 +12,7 @@ namespace ProjLinq
         public string studentName { get; set; }
         public int age { get; set; }
         public int shoolID { get; set; }
+
+        public virtual Shool Shool { get; set; }
     }
 }

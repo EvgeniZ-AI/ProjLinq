@@ -11,5 +11,7 @@ namespace ProjLinq
         public int id { get; set; }
         public string NameClass { get; set; }
         public int quantity { get; set; }
+
+        public virtual ICollection<Class> Classes { get; set; }
     }
 }
