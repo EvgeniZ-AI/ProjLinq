@@ -9,7 +9,7 @@ namespace ProjLinq
 {
     public class ClassDbContext : DbContext
     {
-        protected ClassDbContext() :base("ShoolDbConnectionsString")
+        public ClassDbContext() :base("ShoolDbConnectionsString")
         {
         }
 
