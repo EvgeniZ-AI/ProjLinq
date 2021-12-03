@@ -15,34 +15,39 @@ namespace ProjLinq
                 var firstСlass = new Shool()
                 {
                     NameClass = "1А",
-                    quantity = 14
+                    quantity = 5
                 };
                 var secondClass = new Shool()
                 {
                     NameClass = "2A",
-                    quantity = 19
+                    quantity = 8
                 };
                 var thirdСlass = new Shool()
                 {
                     NameClass = "3A",
-                    quantity = 16
+                    quantity = 3
                 };
                 var fourthClass = new Shool()
                 {
                     NameClass = "4A",
-                    quantity = 20
+                    quantity = 6
                 };
 
                 conntext.Shools.Add(firstСlass);
                 conntext.Shools.Add(secondClass);
                 conntext.Shools.Add(thirdСlass);
                 conntext.Shools.Add(fourthClass);
-                //conntext.SaveChanges();
 
-                Console.WriteLine($"id-{firstСlass.id} Class-{firstСlass.NameClass}  quantity-{firstСlass.quantity}");
-                Console.WriteLine($"id-{secondClass.id} Class-{secondClass.NameClass}  quantity-{secondClass.quantity}");
-                Console.WriteLine($"id-{thirdСlass.id} Class-{thirdСlass.NameClass}  quantity-{thirdСlass.quantity}");
-                Console.WriteLine($"id-{fourthClass.id} Class-{fourthClass.NameClass}  quantity-{fourthClass.quantity}");
+                var PetiaSidorov = new Class()
+                {
+                    studentName = "Петя Сидоров",
+                    age = 6,
+                    shoolID = 1
+                };
+
+                conntext.Classes.Add(PetiaSidorov);
+
+                
 
             }
         }
