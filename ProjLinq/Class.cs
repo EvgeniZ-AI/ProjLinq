@@ -14,5 +14,6 @@ namespace ProjLinq
         public int shoolID { get; set; }
 
         public virtual Shool Shool { get; set; }
+        public virtual ICollection<grades> Grades { get; set; }
     }
 }
