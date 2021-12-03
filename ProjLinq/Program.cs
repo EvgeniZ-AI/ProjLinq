@@ -44,10 +44,38 @@ namespace ProjLinq
                     age = 6,
                     shoolID = 1
                 };
+                var EvgeniiRasskazov = new Class()
+                {
+                    studentName = "Евгений Рассказов",
+                    age = 7,
+                    shoolID = 1
+                };
+                var AleksandrVoskresenski = new Class()
+                {
+                    studentName = "Александр Воскресенский",
+                    age = 7,
+                    shoolID = 1
+                };
+                var AleksandrMoshalin = new Class()
+                {
+                    studentName = "Александр Мочалин",
+                    age = 6,
+                    shoolID = 1
+                };
+                var AlinaBorovkova = new Class()
+                {
+                    studentName = "Алина боровкова",
+                    age = 6,
+                    shoolID = 1
+                };
 
                 conntext.Classes.Add(PetiaSidorov);
+                conntext.Classes.Add(EvgeniiRasskazov);
+                conntext.Classes.Add(AlinaBorovkova);
+                conntext.Classes.Add(AleksandrMoshalin);
+                conntext.Classes.Add(AleksandrVoskresenski);
 
-                
+
 
             }
         }
