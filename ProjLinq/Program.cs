@@ -37,9 +37,13 @@ namespace ProjLinq
                 conntext.Shools.Add(secondClass);
                 conntext.Shools.Add(thirdСlass);
                 conntext.Shools.Add(fourthClass);
-                conntext.SaveChanges();
+                //conntext.SaveChanges();
 
                 Console.WriteLine($"id-{firstСlass.id} Class-{firstСlass.NameClass}  quantity-{firstСlass.quantity}");
+                Console.WriteLine($"id-{secondClass.id} Class-{secondClass.NameClass}  quantity-{secondClass.quantity}");
+                Console.WriteLine($"id-{thirdСlass.id} Class-{thirdСlass.NameClass}  quantity-{thirdСlass.quantity}");
+                Console.WriteLine($"id-{fourthClass.id} Class-{fourthClass.NameClass}  quantity-{fourthClass.quantity}");
+
             }
         }
     }
