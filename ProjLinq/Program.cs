@@ -75,6 +75,7 @@ namespace ProjLinq
                 conntext.Classes.Add(AleksandrMoshalin);
                 conntext.Classes.Add(AleksandrVoskresenski);
 
+                conntext.SaveChanges();
 
 
             }
